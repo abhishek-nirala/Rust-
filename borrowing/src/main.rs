@@ -15,7 +15,10 @@ fn main() {
     let mut s = String::from("Tofu");
     //let len = str_length(&mut s);
     let r1 = &s;
+    let rs = &r1;
+    //rs.push_str("-tikki"); 
 
+    println!("rs: {rs}");
     println!("printing r1: {r1}");
     println!("Finish!");
     let r2 = &mut s;
