@@ -35,11 +35,11 @@ fn main() {
     };
     println!("User : {user1:#?}");
 
-    //let user2 = User {
-    //    email: String::from("tofu-tikki@mail.com"),
-    //    ..user1
-    //};
-    //
+    let user2 = User {
+        email: String::from("tofu-tikki@mail.com"),
+        ..user1
+    };
+
     //println!("user : {}",user1.username);
 
     let rect1 = Rectangle {
