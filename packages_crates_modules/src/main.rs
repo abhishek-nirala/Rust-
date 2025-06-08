@@ -1,6 +1,5 @@
-use packages_crates_modules::{authenticate, Credentials};
-
-
+use packages_crates_modules::authenticate;
+use packages_crates_modules::auth_utils::models::Credentials;
 
 fn main() {
     println!("Start!");
