@@ -16,13 +16,13 @@ fn main() {
     //let len = str_length(&mut s);
     let r1 = &s;
     let rs = &r1;
-    //rs.push_str("-tikki"); 
+    //rs.push_str("-soya sauce"); 
 
     println!("rs: {rs}");
     println!("printing r1: {r1}");
     println!("Finish!");
     let r2 = &mut s;
-    r2.push_str(" with wsabi");
+    r2.push_str(" with wasabi");
     println!("r2: {r2}");
 
 
